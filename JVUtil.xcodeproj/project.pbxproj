@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A45328E5734E8C64BBE5420F /* libPods-JVUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308B046D2DB0C370CC62BC71 /* libPods-JVUtil.a */; };
+		EC44A4321EE1699D0076DAB3 /* JVUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = EC44A4301EE1699D0076DAB3 /* JVUtility.h */; };
+		EC44A4331EE1699D0076DAB3 /* JVUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = EC44A4311EE1699D0076DAB3 /* JVUtility.m */; };
+		ECBE7B5B1EDEA436006E538B /* JVUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE7B591EDEA436006E538B /* JVUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBE7B641EDEA78C006E538B /* JVUtilMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE7B621EDEA78C006E538B /* JVUtilMacros.h */; };
+		ECBE7B681EDEA841006E538B /* demo.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE7B661EDEA841006E538B /* demo.h */; };
+		ECBE7B691EDEA841006E538B /* demo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE7B671EDEA841006E538B /* demo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		308B046D2DB0C370CC62BC71 /* libPods-JVUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JVUtil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3865241451D5941E473814CD /* Pods-JVUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVUtil.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-JVUtil/Pods-JVUtil.debug.xcconfig"; sourceTree = "<group>"; };
+		D6BB634D1ECB4599C3DB605E /* Pods-JVUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVUtil.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-JVUtil/Pods-JVUtil.release.xcconfig"; sourceTree = "<group>"; };
+		EC44A4301EE1699D0076DAB3 /* JVUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVUtility.h; sourceTree = "<group>"; };
+		EC44A4311EE1699D0076DAB3 /* JVUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVUtility.m; sourceTree = "<group>"; };
+		ECBE7B561EDEA436006E538B /* JVUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE7B591EDEA436006E538B /* JVUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVUtil.h; sourceTree = "<group>"; };
+		ECBE7B5A1EDEA436006E538B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBE7B621EDEA78C006E538B /* JVUtilMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVUtilMacros.h; sourceTree = "<group>"; };
+		ECBE7B661EDEA841006E538B /* demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo.h; sourceTree = "<group>"; };
+		ECBE7B671EDEA841006E538B /* demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBE7B521EDEA436006E538B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45328E5734E8C64BBE5420F /* libPods-JVUtil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A433013B277B1305480E265A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308B046D2DB0C370CC62BC71 /* libPods-JVUtil.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1067383AEA369DD3E4E19AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3865241451D5941E473814CD /* Pods-JVUtil.debug.xcconfig */,
+				D6BB634D1ECB4599C3DB605E /* Pods-JVUtil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECBE7B4C1EDEA436006E538B = {
+			isa = PBXGroup;
+			children = (
+				ECBE7B581EDEA436006E538B /* JVUtil */,
+				ECBE7B571EDEA436006E538B /* Products */,
+				B1067383AEA369DD3E4E19AD /* Pods */,
+				A433013B277B1305480E265A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBE7B571EDEA436006E538B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE7B561EDEA436006E538B /* JVUtil.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBE7B581EDEA436006E538B /* JVUtil */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE7B591EDEA436006E538B /* JVUtil.h */,
+				ECBE7B621EDEA78C006E538B /* JVUtilMacros.h */,
+				ECBE7B5A1EDEA436006E538B /* Info.plist */,
+				ECBE7B661EDEA841006E538B /* demo.h */,
+				ECBE7B671EDEA841006E538B /* demo.m */,
+				EC44A4301EE1699D0076DAB3 /* JVUtility.h */,
+				EC44A4311EE1699D0076DAB3 /* JVUtility.m */,
+			);
+			path = JVUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ECBE7B531EDEA436006E538B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBE7B5B1EDEA436006E538B /* JVUtil.h in Headers */,
+				EC44A4321EE1699D0076DAB3 /* JVUtility.h in Headers */,
+				ECBE7B641EDEA78C006E538B /* JVUtilMacros.h in Headers */,
+				ECBE7B681EDEA841006E538B /* demo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ECBE7B551EDEA436006E538B /* JVUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE7B5E1EDEA436006E538B /* Build configuration list for PBXNativeTarget "JVUtil" */;
+			buildPhases = (
+				129ADEB532774E1FCEA16B78 /* [CP] Check Pods Manifest.lock */,
+				ECBE7B511EDEA436006E538B /* Sources */,
+				ECBE7B521EDEA436006E538B /* Frameworks */,
+				ECBE7B531EDEA436006E538B /* Headers */,
+				ECBE7B541EDEA436006E538B /* Resources */,
+				458902B98F53B7798F8A5C2F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVUtil;
+			productName = JVUtil;
+			productReference = ECBE7B561EDEA436006E538B /* JVUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBE7B4D1EDEA436006E538B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FC;
+				TargetAttributes = {
+					ECBE7B551EDEA436006E538B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8T9HE858RS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECBE7B501EDEA436006E538B /* Build configuration list for PBXProject "JVUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECBE7B4C1EDEA436006E538B;
+			productRefGroup = ECBE7B571EDEA436006E538B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBE7B551EDEA436006E538B /* JVUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBE7B541EDEA436006E538B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		129ADEB532774E1FCEA16B78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		458902B98F53B7798F8A5C2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-JVUtil/Pods-JVUtil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBE7B511EDEA436006E538B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC44A4331EE1699D0076DAB3 /* JVUtility.m in Sources */,
+				ECBE7B691EDEA841006E538B /* demo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECBE7B5C1EDEA436006E538B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECBE7B5D1EDEA436006E538B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECBE7B5F1EDEA436006E538B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3865241451D5941E473814CD /* Pods-JVUtil.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8T9HE858RS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JVUtil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jv.JVUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ECBE7B601EDEA436006E538B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BB634D1ECB4599C3DB605E /* Pods-JVUtil.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8T9HE858RS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JVUtil/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jv.JVUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBE7B501EDEA436006E538B /* Build configuration list for PBXProject "JVUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE7B5C1EDEA436006E538B /* Debug */,
+				ECBE7B5D1EDEA436006E538B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE7B5E1EDEA436006E538B /* Build configuration list for PBXNativeTarget "JVUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE7B5F1EDEA436006E538B /* Debug */,
+				ECBE7B601EDEA436006E538B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBE7B4D1EDEA436006E538B /* Project object */;
+}
